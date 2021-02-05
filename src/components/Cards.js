@@ -12,13 +12,13 @@ function Cards() {
                     <ul className="cards__items">
                         {/* here we pass the card components */}
                         <CardItem 
-                            src="image/img-8.jpg"
+                            src="image/img-18.jpg"
                             text="Picture size changes based on the amount of text displayed here... fuck"
                             label="Adventure"
                             path="/services"
                         />
                         <CardItem 
-                            src="image/img-1.jpg"
+                            src="image/img-17.jpg"
                             text="Does this change? Nope, it depends on the first picture"
                             label="Adventure"
                             path="/services"
@@ -31,19 +31,19 @@ function Cards() {
                     <ul className="cards__items">
                         {/* here we pass the card components */}
                         <CardItem 
-                            src="image/img-8.jpg"
+                            src="image/img-23.jpg"
                             text="Picture size changes based on the amount of text displayed here... fuck"
                             label="Adventure"
                             path="/services"
                         />
                         <CardItem 
-                            src="image/img-1.jpg"
+                            src="image/img-25.jpg"
                             text="Does this change? Nope, it depends on the first picture"
                             label="Adventure"
                             path="/services"
                         />
                         <CardItem 
-                            src="image/img-1.jpg"
+                            src="image/img-21.jpg"
                             text="Does this change? Nope, it depends on the first picture"
                             label="Adventure"
                             path="/services"

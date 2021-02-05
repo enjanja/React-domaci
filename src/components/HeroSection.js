@@ -7,7 +7,7 @@ function HeroSection() {
     return (
         <div className="hero-container">
             {/* import video  */}
-            <video src="/video/video-2.mp4" autoPlay loop muted />
+            <video src="/video/video-3.mp4" autoPlay loop muted />
             <h1>ADVENTURE AWAITS</h1>
             <p>What R U waiting 4</p>
             <div className="hero-btns">
