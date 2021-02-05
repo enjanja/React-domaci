@@ -8,10 +8,10 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Noc je blizu i s tobom bih da svicem.
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          Otvori ruku sada jer tvoj me dodir iz mraka void
         </p>
         <div className='input-areas'>
           <form>
@@ -21,7 +21,7 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Join us</Button>
           </form>
         </div>
       </section>
@@ -33,14 +33,12 @@ function Footer() {
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
             <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
@@ -49,13 +47,12 @@ function Footer() {
             <Link to='/'>Submit Video</Link>
             <Link to='/'>Ambassadors</Link>
             <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
+            <Link to='/'>Pinterest</Link>
             <Link to='/'>Twitter</Link>
           </div>
         </div>
@@ -64,11 +61,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              LOGO
+              OLO
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>DEATH © 2020</small>
+          <small class='website-rights' >2020 © DEATH</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

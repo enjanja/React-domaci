@@ -8,22 +8,22 @@ function HeroSection() {
         <div className="hero-container">
             {/* import video  */}
             <video src="/video/video-3.mp4" autoPlay loop muted />
-            <h1>ADVENTURE AWAITS</h1>
-            <p>What R U waiting 4</p>
+            <h1>OPEN YOUR EYES</h1>
+            <p>Become one with The Creator</p>
             <div className="hero-btns">
                 <Button 
                     className="btns" 
                     buttonStyle="btn--outline"
                     buttonSize="btn--large"
                 >
-                    GET STARTED
+                    CONTACT US
                 </Button>
                 <Button 
                     className="btns" 
                     buttonStyle="btn--primary"
                     buttonSize="btn--large"
                 >
-                    WATCH TRAILER <i clasName="far fa-play-circle" />
+                    Memento mori
                 </Button>
             </div>
         </div>

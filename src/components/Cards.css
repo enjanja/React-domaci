@@ -66,8 +66,9 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color: rgb(26, 26, 26);
     box-sizing: border-box;
+    border-radius: 4px 4px 0 0 ;
   }
   
   .cards__item__img {

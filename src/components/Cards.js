@@ -6,22 +6,22 @@ import './Cards.css';
 function Cards() {
     return (
         <div className="cards">
-            <h1>Check out these destinations!</h1>
+            <h1>Get familiar with the world of digital art</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         {/* here we pass the card components */}
                         <CardItem 
                             src="image/img-18.jpg"
-                            text="Picture size changes based on the amount of text displayed here... fuck"
-                            label="Adventure"
-                            path="/services"
+                            text="Satan, also known as the Devil, is an entity in the Abrahamic religions that seduces humans into sin or falsehood. "
+                            label="Pinterest"
+                            path="/etymology"
                         />
                         <CardItem 
                             src="image/img-17.jpg"
-                            text="Does this change? Nope, it depends on the first picture"
-                            label="Adventure"
-                            path="/services"
+                            text="Satanism is a group of ideological and philosophical beliefs based on Satan."
+                            label="Tumblr"
+                            path="/etymology"
                         />
                     
                     </ul>
@@ -31,22 +31,23 @@ function Cards() {
                     <ul className="cards__items">
                         {/* here we pass the card components */}
                         <CardItem 
-                            src="image/img-23.jpg"
-                            text="Picture size changes based on the amount of text displayed here... fuck"
-                            label="Adventure"
-                            path="/services"
+                            src="image/img-29.jpg"
+                            text="The word Satan was not originally a proper name but rather an ordinary noun meaning the adversary; in this context, it appears at several points in the Old Testament."
+                            label="Instagram"
+                            path="/satanism"
                         />
                         <CardItem 
-                            src="image/img-25.jpg"
-                            text="Does this change? Nope, it depends on the first picture"
-                            label="Adventure"
-                            path="/services"
+                            src="image/img-19.jpg"
+                            text="Historical and anthropological research suggests that nearly all societies have developed the idea of a sinister and anti-human force that can hide itself within society"
+                            label="Drawio"
+                            path="/satanism"
                         />
                         <CardItem 
-                            src="image/img-21.jpg"
-                            text="Does this change? Nope, it depends on the first picture"
-                            label="Adventure"
-                            path="/services"
+                            src="image/img-28.jpg"
+                            text="As the late medieval gave way to the early modern period, European Christendom experienced a schism between the established Roman Catholic Church and the breakaway Protestant movement.
+                            "
+                            label="Clip"
+                            path="/satanism"
                         />
                     </ul>
                 </div>

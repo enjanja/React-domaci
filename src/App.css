@@ -2,13 +2,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: serif;
+  /* serif, lucida*/
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+.satanism,
+.etymology,
+.contact {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -16,17 +17,17 @@
   font-size: 3rem;
 }
 
-.services {
-  /* background-image: url('/image/img-20.jpg'); */
+.satanism {
+  background-image: url("./assets/img-13.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
 
-.products {
-  /* background-image: url('/images/img-1.jpg'); */
+.etymology {
+  background-image: url('./assets/img-16.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -34,12 +35,25 @@
   font-size: 100px;
 }
 
-.sign-up {
-  /* background-image: url('/images/img-8.jpg'); */
+.contact {
+  background-image: url('./assets/img-27.jpg');
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .etymology {
+      padding-top: 200px;
+    /* width: 84%; */
+  }
+}
+
+/* @media only screen and (min-width: 768px) {
+  .etymology {
+      padding-top: 500px;
+  }
+} */
 
