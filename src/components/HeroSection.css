@@ -9,7 +9,7 @@ video{
 }
 
 .hero-container{
-    /* background-color: url('images/img-home.jpg') center center/cover no-repeat; */
+    /* background-color: url('/image/img-home.jpg') center center/cover no-repeat; */
     height: 100vh;
     width: 100%;
     display: flex;
