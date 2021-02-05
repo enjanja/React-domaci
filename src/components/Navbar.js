@@ -22,14 +22,18 @@ function Navbar() {
     useEffect(() => {
         showButton();
     },[]);
+    //kad se menja velicina ekrana dugme se ne bi pojavljivalo
+    //ova f-ja to resava
+
 
     window.addEventListener('resize', showButton);
+    //kad menjamo velicinu ekrana showButton f-ja se aktivira
 
     return (
         <>
             <nav className="navbar">
                 <div className="navbar-containter">
-                    <Link to='/' className="navbar-logo">
+                    <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
                         LOGO
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
